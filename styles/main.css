@@ -1,16 +1,17 @@
 body { 
     padding-top: 80px; 
     height: 100%;
+	background-color: black;
 }
 
 td {
-    border: 1px solid #79d9ce;
+    border: 1px solid #c41c40;
     width: 20px;
     height: 20px;
 }
 
 .key {
-	border: 1px solid #79d9ce;
+	border: 1px solid #c41c40;
 	width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -31,32 +32,32 @@ ul {
 
 .wall {
 	transition : background-color 0.1s ease-in-out;
-	background-color: #262b28;
-	border-color: #262b28;
+	background-color: #060557;
+	border-color: #060557;
 }
 
 .none {
 	transition : background-color 0.1s ease-in-out;
 	background-color: white;
-	border-color: #79d9ce;
+	border-color: #94d979;
 }
 
 .searching {
 	transition : background-color 0.08s ease-in-out;
-	background-color: #1cd4b5;
-	border-color: #1cd4b5;
+	background-color: #5eee0b;
+	border-color: #5eee0b;
 }
 
 .visited {
 	transition : background-color 0.08s ease-in-out;
-	background-color: #e89440;
-	border-color: #e89440;
+	background-color: #e8f804;
+	border-color: #e8f804;
 }
 
 .success {
 	transition : background-color 0.08s ease-in-out;
-	background-color: #ffee31;
-	border-color: #ffee31;
+	background-color: #f37d08;
+	border-color: #f37d08;
 }
 
 .start {
