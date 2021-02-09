@@ -1,5 +1,7 @@
 # PathFinder
 
+*Access Link* - https://swarnenduganguli25.github.io/PathFinder/
+
 ### Micro Mouse Exploration
 
 We represented the maze as a 2D array of size 16*16, initiated with zeros. We’ll call it the maze array. 
